@@ -31,4 +31,4 @@
  "nbformat": 4,
  "nbformat_minor": 5
 }
-![screenshot1](./screenshots/Image1.png)
+![screenshot1](https://github.com/UASrivastava/Projects/blob/main/Screenshots/Image1.png)
