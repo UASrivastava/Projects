@@ -6,14 +6,14 @@ st.title("My Dashboard")
 
 file = st.file_uploader("Upload file",type=({"csv","xlsx"}))
 
-dir = os.chdir(r"C:\Users\anand\archive")
-if file is not None:
-    st.write("Selected file Name:"+file.name)
-    df=pd.read_csv(file.name,encoding="ISO-8859-1")
-    st.write(df)
-else:
-    df=pd.read_csv(r"C:\Users\anand\archive\Superstore.csv",encoding="ISO-8859-1")
-    st.write(df)    
+# # dir = os.chdir(r"")
+# if file is not None:
+#     st.write("Selected file Name:"+file.name)
+#     df=pd.read_csv(file.name,encoding="ISO-8859-1")
+#     st.write(df)
+# else:
+df=pd.read_csv(r"Superstore.csv",encoding="ISO-8859-1")
+st.write(df)    
 
 # col1,col2 = st.coloumns((2))
 
